@@ -44,7 +44,7 @@ int main() {
     // Uses try catch to check for errors
     try {
         // Converts userNumberString to float
-        userNum = static_cast<float>(userNumDecimals);
+        userNum = stof(userNumStr);
 
         // Converts userNumDecimalsString to a float
         userNumDecimalsFloat = stof(userNumDecimalsStr);
